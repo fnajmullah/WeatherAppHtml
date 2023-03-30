@@ -1,0 +1,63 @@
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+.parlak::before{
+    content: "oglan";
+    margin-left: 10px;
+    color: red;
+}
+.nav {
+    top: 0;
+    color: white;
+    background-color: black;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+
+}
+
+.nav nav-logo {}
+
+.nav ul {
+    display: flex;
+
+}
+
+.nav li {
+    /* color: white; */
+    margin-left: 100px;
+    display: inline;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #ddd;
+}
+
+.content {
+    padding-top: 10px;
+    background-color: white;
+    color: black;
+    padding-bottom: 100px;
+    padding-left: 100px;
+}
+
+.footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 30px;
+}
